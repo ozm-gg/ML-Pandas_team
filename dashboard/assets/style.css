@@ -1,0 +1,158 @@
+body {
+    background-color: #1e1e2f;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+h2, h3 {
+    color: #de5571;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+button {
+    background-color: #de5571;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 18px;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+button:hover {
+    background-color: #98374b;
+}
+
+input {
+    margin: 10px 0;
+    padding: 12px;
+    border: 2px solid #de5571;
+    border-radius: 5px;
+    width: calc(100% - 30px);
+    font-size: 1.1em;
+}
+
+.tab-content {
+    padding: 20px;
+}
+
+.tabs div {
+    padding: 12px 20px;
+    display: inline-block;
+    font-weight: bold;
+    cursor: pointer;
+    color: #de5571;
+    font-size: 1.2em;
+}
+
+.tabs div:hover {
+    color: #98374b;
+}
+
+.tabs div.active {
+    border-bottom: 3px solid #2CB34A;
+    color: #98374b;
+}
+
+.tab-header {
+    background-color: #1e1e2f;
+    padding: 20px;
+    text-align: center;
+}
+
+.tab-header h1 {
+    margin-bottom: 10px;
+}
+
+.tab-header div {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+.card {
+    background-color: #2A2A2A;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.card h3 {
+    color: #de5571;
+}
+
+.graph-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.graph-container {
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+.graph-container-full {
+    width: 100%;
+}
+
+.result-block {
+    background-color: #1E1E1E;
+    border: 1px solid #de5571;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Лёгкая тень */
+    color: #E0E0E0;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.result-block h3 {
+    font-size: 1.5em; 
+    color: #FFA500; 
+    margin-bottom: 15px; 
+}
+
+.result-block p {
+    font-size: 1.1em; 
+    line-height: 1.6; 
+    margin: 10px 0; 
+}
+
+.result-block ul {
+    margin: 10px 0;
+    padding-left: 20px; 
+}
+
+.result-block ul li {
+    margin-bottom: 8px; 
+}
+
+.result-block button {
+    background-color: #de5571; 
+    color: #FFFFFF;  
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+    margin-top: 15px;
+}
+
+.result-block button:hover {
+    background-color: #98374b;  
+}
